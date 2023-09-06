@@ -28,18 +28,18 @@ const Formulario = (props) => {
     return (
         <section className='formulario'>
             <form onSubmit={aoSalvar}>
-                <h2>Preencha os dados para criar o card do colaborador</h2>
+                <h2>Preencha os dados para criar o card do player</h2>
                 <CampoTexto 
                     obrigatorio={true} 
-                    label="Nome" 
-                    placeholder='Digite seu nome'
+                    label="Nick" 
+                    placeholder='Digite seu nickname'
                     valor={nome}
                     aoAlterado={valor => setNome(valor)}
                 />
                 <CampoTexto 
                     obrigatorio={true} 
-                    label="Cargo" 
-                    placeholder='Digite seu cargo'
+                    label="Role" 
+                    placeholder='Digite a sua role'
                     valor={cargo}
                     aoAlterado={valor => setCargo(valor)}
                 />
