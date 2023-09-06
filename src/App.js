@@ -26,21 +26,6 @@ function App() {
       corDestaque: '#E06B69',
       corFundo: '#FDE7E8'
     },
-    // {
-    //   nome: 'UX e Design',
-    //   corDestaque: '#DB6EBF',
-    //   corFundo: '#FAE9F5'
-    // },
-    // {
-    //   nome: 'Mobile',
-    //   corDestaque: '#FFBA05',
-    //   corFundo: '#FFF5D9'
-    // },
-    // {
-    //   nome: 'Inovacao e Gestao',
-    //   corDestaque: '#FF8A29',
-    //   corFundo: '#FFEEDF'
-    // },
   ]
 
   const [colaboradores, setColaboradores] = useState([]);
