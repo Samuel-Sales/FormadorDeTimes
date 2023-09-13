@@ -1,0 +1,35 @@
+.campo {
+    margin: 24px 0;
+}
+
+.campo label {
+    display: block;
+    margin-bottom: 8px;
+    font-size: 24px;
+}
+
+.campo input {
+    background-color: #FFFFFF;
+    box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.06);
+    width: 100%;
+    border: none;
+    font-size: 24px;
+    padding: 24px;
+    box-sizing: border-box;
+}
+
+/* Estilos para telas pequenas (ate 600px) */
+@media (max-width: 600px) {
+    .campo label {
+        font-size: 22px;
+    }
+
+    .campo input {
+        font-size: 18px;
+    }
+}
+
+/* Estilos para telas medias (de 601px a 1024px) */
+@media (min-width: 601px) and (max-width: 1024px) {
+
+}
